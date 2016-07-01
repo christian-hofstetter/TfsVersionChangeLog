@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "id": "TfsVersionChangeLog",
+  "id": "ChangeLogViewer",
   "version": "0.0.1",
   "name": "Change Log Viewer",
   "description": "Get the Change Log between two builds for a build definition.",
@@ -48,7 +48,7 @@
   ],
   "content": {
     "details": {
-      "path": "overview.md"
+      "path": "README.md"
     }
   },
   "files": [
@@ -61,7 +61,7 @@
       "addressable": true
     },
     {
-      "path": "sdk",
+      "path": "node_modules/vss-web-extension-sdk/lib",
       "addressable": true
     },
     {
