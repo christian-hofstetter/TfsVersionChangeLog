@@ -38,3 +38,6 @@ jspm_packages
 
 # Tyings
 typings
+
+# TFS Extensions
+*.vsix
