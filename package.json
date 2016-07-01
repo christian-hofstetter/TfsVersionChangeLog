@@ -1,0 +1,23 @@
+{
+  "name": "tfsversionchangelog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vss-web-extension-sdk": "^1.101.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-hofstetter/TfsVersionChangeLog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-hofstetter/TfsVersionChangeLog/issues"
+  },
+  "homepage": "https://github.com/christian-hofstetter/TfsVersionChangeLog#readme"
+}
