@@ -1,0 +1,81 @@
+{
+  "manifestVersion": 1,
+  "id": "TfsVersionChangeLog",
+  "version": "0.0.1",
+  "name": "Change Log Viewer",
+  "description": "Get the Change Log between two builds for a build definition.",
+  "publisher": "christian-hofstetter",
+  "public": false,
+  "scopes": [ "vso.work" ],
+  "icons": {
+    "default": "images/logo.png"
+  },
+  "tags": [
+    "change log"
+  ],
+  "links": {
+    "home": {
+      "uri": "https://github.com/christian-hofstetter/TfsVersionChangeLog#readme"
+    },
+    "support": {
+      "uri": "https://github.com/christian-hofstetter/TfsVersionChangeLog"
+    },
+    "repository": {
+      "uri": "https://github.com/christian-hofstetter/TfsVersionChangeLog"
+    },
+    "issues": {
+      "uri": "https://github.com/christian-hofstetter/TfsVersionChangeLog/issues"
+    }
+  },
+  "branding": {
+    "color": "rgb(220, 235, 252)",
+    "theme": "light"
+  },
+  "contributions": [
+    {
+      "id": "change-log-hub",
+      "type": "ms.vss-web.hub",
+      "description": "Adds a 'Change Log' hub to the Work hub group.",
+      "targets": [
+        "ms.vss-work-web.work-hub-group"
+      ],
+      "properties": {
+        "name": "Change Log Viewer",
+        "order": 99,
+        "uri": "app.html"
+      }
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "files": [
+    {
+      "path": "scripts",
+      "addressable": true
+    },
+    {
+      "path": "images",
+      "addressable": true
+    },
+    {
+      "path": "sdk",
+      "addressable": true
+    },
+    {
+      "path": "css",
+      "addressable": true
+    },
+    {
+      "path": "app.html",
+      "addressable": true
+    }
+  ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ]
+}
